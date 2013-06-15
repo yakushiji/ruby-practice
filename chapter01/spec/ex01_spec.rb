@@ -1,4 +1,5 @@
 require File.expand_path(File.dirname(__FILE__) + '/../lib/ex01.rb')
+
 describe "hours_per_year" do
   it "should equal 8760" do
     hours_per_year.should == 8760
